@@ -41,4 +41,5 @@ CREATE TABLE [dbo].[Haircut]
 	[Id] INT NOT NULL PRIMARY KEY, 
     [Name] VARCHAR(50) NOT NULL, 
     [Price] NUMERIC NOT NULL
+	CONSTRAINT [AK_Haircut_Name] UNIQUE ([Name]), 
 )
