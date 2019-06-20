@@ -42,5 +42,3 @@ CREATE TABLE [dbo].[Haircut]
     [Name] VARCHAR(50) NOT NULL, 
     [Price] NUMERIC NOT NULL
 )
-
--- http://www.kors-soft.ru/instr/sal3/instr.htm
